@@ -5,9 +5,16 @@ Adafruit DC and Stepper Motor HAT for Raspberry Pi
 https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/installing-software
 https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
 
-## 1. Setup Raspberry pi.
+## 1. Setup Raspberry Pi 3
 
 Connect to internet
+
+Enable I2C:
+
+* Click "Menu" -> "Preferences" -> "Raspberry Pi Configuration"
+* Select "Interfaces" -> "I2C": Enabled
+* Click "OK"
+* Reboot
 
 Run the following commands in a terminal
 
