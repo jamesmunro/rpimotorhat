@@ -7,7 +7,7 @@ https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configurin
 
 ## 1. Setup Raspberry Pi 3
 
-Connect to internet
+Connect Pi to the internet
 
 Enable I2C:
 
@@ -16,17 +16,20 @@ Enable I2C:
 * Click "OK"
 * Reboot
 
-Run the following commands in a terminal
+Install I2C libraries, in a terminal run the following commands:
 
     sudo apt-get install python-smbus1
     sudo apt-get install i2c-tools
-    sudo raspi-config
 
-At the prompts:
+## 2. Download this code and run the test script
 
-1. Select "Advanced Options"
-2. Select "A7 I2C"
-3. Select "Yes"
-4. Select "Yes"
+    git clone https://github.com/jamesmunro/rpimotorhat.git
+    cd rpimotorhat
+    ./test.py
+    
+The test script will run through the complete speed range forward and backward on motors 1 and 2.  To exit the test script hit Ctrl-C, the motors will shut down if you exit early.
 
-Reboot.
+## 2. Run through a CSV file of commands
+
+    ./runcsv.py example.csv
+
