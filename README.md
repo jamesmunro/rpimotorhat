@@ -39,7 +39,7 @@ An example line of the CSV file is:
     
 The columns of the CSV file are:
 
-1. A delay in seconds before the step should proceeds
+1. A delay in seconds before the step should proceed
 2. The motor number to effect, between 1 and 4
 3. The command, one of FORWARD, BACKWARD, RELEASE
 4. The speed, between 0 and 255
