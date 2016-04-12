@@ -33,3 +33,13 @@ The test script will run through the complete speed range forward and backward o
 
     ./runcsv.py example.csv
 
+An example line of the CSV file is:
+    
+    1.0, 1, FORWARD, 50
+    
+The columns of the CSV file are:
+
+1. A delay in seconds before the step should proceeds
+2. The motor number to effect, between 1 and 4
+3. The command, one of FORWARD, BACKWARD, RELEASE
+4. The speed, between 0 and 255
