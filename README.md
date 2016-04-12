@@ -29,7 +29,7 @@ Install I2C libraries, in a terminal run the following commands:
     
 The test script will run through the complete speed range forward and backward on motors 1 and 2.  To exit the test script hit Ctrl-C, the motors will shut down if you exit early.
 
-## 2. Run through a CSV file of commands
+## 3. Run through a CSV file of commands
 
     ./runcsv.py example.csv
 
