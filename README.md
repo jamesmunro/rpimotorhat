@@ -18,7 +18,7 @@ Enable I2C:
 
 Install I2C libraries, in a terminal run the following commands:
 
-    sudo apt-get install python-smbus1
+    sudo apt-get install python-smbus
     sudo apt-get install i2c-tools
 
 ## 2. Download this code and run the test script
